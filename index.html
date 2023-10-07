@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+    
+header {
+    background-color: #181616; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100; 
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+
+nav a:nth-child(1) {
+    background-color: #130f0f; 
+}
+
+nav a:nth-child(2) {
+    background-color: #61c0bf; 
+}
+
+nav a:nth-child(3) {
+    background-color: #ffdb58; 
+}
+
+nav a:nth-child(4) {
+    background-color: #84de02; 
+}
+
+nav a:nth-child(5) {
+    background-color: #9370db; 
+}
+
+
+nav a:hover {
+    background-color: #333; 
+}
+
+
+        
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff6b6b;
+            color: white;
+        }
+
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .section-heading {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            background-color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .project {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .project h3 {
+            font-size: 24px;
+        }
+
+        .project p {
+            font-size: 16px;
+        }
+
+        .project img {
+            max-width: 100%;
+        }
+
+        .contact-section {
+            background-color: #ff6b6b;
+            text-align: center;
+            padding: 40px;
+            color: white;
+        }
+
+        .contact-info {
+            font-size: 20px;
+        }
+.skills-list {
+    background-color: #f3f3f3;
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px; 
+    margin: 0 auto; 
+    list-style: none;
+}
+
+.skills-list li {
+    font-size: 20px;
+    margin: 10px 0; 
+    background-color: white; 
+}
+.push-down {
+            margin-top: 10em; 
+        }
+
+    </style>
+    <title>Gagan Gowda L - Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Gagan Gowda L</h1>
+        <p>Web Developer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#resume">Resume</a>
+                <a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="push-down">
+    <div class="section" id="about">
+        <div class="push-down"></div>
+        <div class="section-content">
+            <img src="img/img.jpg" alt="Your Name" style="border-radius: 50%; max-width: 200px; margin-bottom: 20px;">
+            <p style="font-size: 24px;">Greetings! I'm Gagan, a creative web developer dedicated to crafting unique digital experiences.</p>
+        </div>
+    </div>
+    
+    <div class="section" id="skills">
+        <div class="push-down"></div>
+        <h2 class="section-heading">Skills</h2>
+        <ul class="skills-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>PYTHON</li>
+            <li>UI/UX</li>
+        </ul>
+    </div>
+
+    
+    
+    <div class="section" id="projects">
+        <div class="push-down"></div>
+        <h2 class="section-heading">Projects</h2>
+        <div class="project">
+            <h3>AgroGuide</h3>
+            <p>Unlock agricultural success with AgroGuide – your trusted farming companion.</p>
+            <img src="img/2.jpg" alt="Project 1">
+        </div>
+        <div class="project">
+            <h3>Food Ordering Website</h3>
+            <p>Indulge in culinary delights, order your favorite meals hassle-free.</p>
+            <img src="img/3.jpg" alt="Project 2" style="max-width: 45%;">
+        </div>
+    </div>
+    
+    <div class="section" id="resume">
+        <div class="push-down"></div>
+        <h2 class="section-heading">Resume</h2>
+        <p style="font-size: 20px;">Download my resume <a href="Resume.pdf" download="">here</a>.</p>
+    </div>
+    
+    <div class="contact-section" id="contact">
+        <h2 class="section-heading">Contact</h2>
+        <p class="contact-info">Email: gagangowda426@gmail.com</p>
+        <p class="contact-info">Phone: 8123131122</p>
+    </div>
+</div>
+    <footer>
+        <p> 2023 Gagan Gowda L</p>
+    </footer>
+</body>
+</html>
